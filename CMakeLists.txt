@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 3.8)
+
+MESSAGE(STATUS "CMAKE_SOURCE_DIR = ${CMAKE_SOURCE_DIR}")
+MESSAGE(STATUS "CMAKE_BINARY_DIR = ${CMAKE_BINARY_DIR}")
+add_subdirectory ("src")
+
