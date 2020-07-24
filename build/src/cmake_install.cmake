@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/bboycosmo/Desktop/ctpdev/src
+# Install script for directory: F:/CTPdev/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

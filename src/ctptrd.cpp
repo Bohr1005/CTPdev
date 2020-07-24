@@ -1,13 +1,21 @@
 #pragma once
 #include "ctptrd.h"
-#include<thread>
-
+#include <thread>
 ctptrd::ctptrd(CThostFtdcTraderApi* trdApi, CThostFtdcReqUserLoginField* pUserLogin):
 	_trdApi(trdApi),_pUserLogin(pUserLogin)
 {
 	nRequestID = 1;
 }
 
+ctptrd::~ctptrd()
+{
+	if (_trdApi)
+	{
+		_trdApi->RegisterSpi(nullptr);
+		_trdApi->Release();
+		_trdApi = nullptr;
+	}
+}
 void ctptrd::OnFrontConnected()
 {
 	if (_pUserLogin)
@@ -62,7 +70,6 @@ void ctptrd::OnRspQrySettlementInfoConfirm(CThostFtdcSettlementInfoConfirmField*
 			std::cout << "OnRspQrySettlementInfoConfirm:"
 				<< pSettlementInfoConfirm->ConfirmDate << ","
 				<< pSettlementInfoConfirm->ConfirmTime << ","
-				<< bIsLast
 				<< std::endl;
 
 			std::string lastConfirmDate = pSettlementInfoConfirm->ConfirmDate;

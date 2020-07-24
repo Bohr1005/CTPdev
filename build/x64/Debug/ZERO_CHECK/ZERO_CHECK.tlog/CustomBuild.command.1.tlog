@@ -1,6 +1,6 @@
-^C:\USERS\BBOYCOSMO\DESKTOP\CTPDEV\BUILD\CMAKEFILES\BAF78B42A6A357389D211CA9C0A2746C\GENERATE.STAMP.RULE
+^F:\CTPDEV\BUILD\CMAKEFILES\9066042F288042BE42FF83699118085D\GENERATE.STAMP.RULE
 setlocal
-C:\Users\bboycosmo\Anaconda3\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/bboycosmo/Desktop/ctpdev -BC:/Users/bboycosmo/Desktop/ctpdev/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/bboycosmo/Desktop/ctpdev/build/Project.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/CTPdev -BF:/CTPdev/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/CTPdev/build/Project.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

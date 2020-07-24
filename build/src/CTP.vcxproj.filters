@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\bboycosmo\Desktop\ctpdev\src\ctpmkt.cpp">
+    <ClCompile Include="F:\CTPdev\src\ctpmkt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bboycosmo\Desktop\ctpdev\src\ctptrd.cpp">
+    <ClCompile Include="F:\CTPdev\src\ctptrd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\bboycosmo\Desktop\ctpdev\src\test.cpp">
+    <ClCompile Include="F:\CTPdev\src\test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\bboycosmo\Desktop\ctpdev\src\ctpmkt.h">
+    <ClInclude Include="F:\CTPdev\src\ctpmkt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\bboycosmo\Desktop\ctpdev\src\ctptrd.h">
+    <ClInclude Include="F:\CTPdev\src\ctptrd.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\bboycosmo\Desktop\ctpdev\src\CMakeLists.txt" />
+    <CustomBuild Include="F:\CTPdev\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{AE407021-FFF5-350A-9E75-2FED3ADA1CA7}</UniqueIdentifier>
+      <UniqueIdentifier>{2F5C0C80-4147-3674-B3B6-2A8F6D113F1B}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{D72E5E07-E5E1-3B55-AADC-CD340B87581A}</UniqueIdentifier>
+      <UniqueIdentifier>{3E75B84C-194F-3620-817D-35AC52C849AF}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
