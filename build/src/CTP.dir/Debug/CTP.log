@@ -1,0 +1,16 @@
+﻿  Building Custom Rule C:/Users/bboycosmo/Desktop/ctpdev/src/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/bboycosmo/Desktop/ctpdev/build/src/CMakeFiles/generate.stamp is up-to-date.
+  ctpmkt.cpp
+  ctptrd.cpp
+C:\Users\bboycosmo\Desktop\ctpdev\src\ctptrd.cpp(43,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\bboycosmo\Desktop\ctpdev\src\ctptrd.cpp(44,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\bboycosmo\Desktop\ctpdev\src\ctptrd.cpp(76,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\bboycosmo\Desktop\ctpdev\src\ctptrd.cpp(77,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\bboycosmo\Desktop\ctpdev\src\ctptrd.cpp(78,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\bboycosmo\Desktop\ctpdev\src\ctptrd.cpp(86,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\bboycosmo\Desktop\ctpdev\src\ctptrd.cpp(87,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\bboycosmo\Desktop\ctpdev\src\ctptrd.cpp(109,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\bboycosmo\Desktop\ctpdev\src\ctptrd.cpp(110,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  test.cpp
+  正在生成代码...
+  CTP.vcxproj -> C:\Users\bboycosmo\Desktop\ctpdev\build\src\Debug\CTP.exe

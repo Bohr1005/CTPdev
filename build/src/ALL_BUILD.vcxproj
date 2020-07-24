@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D753F02F-CD35-31DB-A9A6-9B97C0DF8C69}</ProjectGuid>
+    <ProjectGuid>{6AB9A16B-B509-3FB8-B03C-6B3DE9F310B8}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -66,7 +66,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>F:\ctpdev\src\..\3rd\rapidjson;F:\ctpdev\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\bboycosmo\Desktop\ctpdev\src\..\3rd\rapidjson;C:\Users\bboycosmo\Desktop\ctpdev\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -76,7 +76,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>F:\ctpdev\src\..\3rd\rapidjson;F:\ctpdev\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\bboycosmo\Desktop\ctpdev\src\..\3rd\rapidjson;C:\Users\bboycosmo\Desktop\ctpdev\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -86,7 +86,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>F:\ctpdev\src\..\3rd\rapidjson;F:\ctpdev\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\bboycosmo\Desktop\ctpdev\src\..\3rd\rapidjson;C:\Users\bboycosmo\Desktop\ctpdev\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -96,7 +96,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>F:\ctpdev\src\..\3rd\rapidjson;F:\ctpdev\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\bboycosmo\Desktop\ctpdev\src\..\3rd\rapidjson;C:\Users\bboycosmo\Desktop\ctpdev\src\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -105,11 +105,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="F:\ctpdev\src\CMakeLists.txt">
-      <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/ctpdev/src/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\Users\bboycosmo\Desktop\ctpdev\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/bboycosmo/Desktop/ctpdev/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SF:/ctpdev -BF:/ctpdev/build --check-stamp-file F:/ctpdev/build/src/CMakeFiles/generate.stamp
+C:\Users\bboycosmo\Anaconda3\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/bboycosmo/Desktop/ctpdev -BC:/Users/bboycosmo/Desktop/ctpdev/build --check-stamp-file C:/Users/bboycosmo/Desktop/ctpdev/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -117,12 +116,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\ctpdev\build\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/bboycosmo/Desktop/ctpdev/src/CMakeLists.txt;C:\Users\bboycosmo\Desktop\ctpdev\src\CMakeLists.txt;C:\Users\bboycosmo\Desktop\ctpdev\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\bboycosmo\Desktop\ctpdev\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/ctpdev/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/bboycosmo/Desktop/ctpdev/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SF:/ctpdev -BF:/ctpdev/build --check-stamp-file F:/ctpdev/build/src/CMakeFiles/generate.stamp
+C:\Users\bboycosmo\Anaconda3\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/bboycosmo/Desktop/ctpdev -BC:/Users/bboycosmo/Desktop/ctpdev/build --check-stamp-file C:/Users/bboycosmo/Desktop/ctpdev/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -130,12 +129,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\ctpdev\build\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/bboycosmo/Desktop/ctpdev/src/CMakeLists.txt;C:\Users\bboycosmo\Desktop\ctpdev\src\CMakeLists.txt;C:\Users\bboycosmo\Desktop\ctpdev\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\bboycosmo\Desktop\ctpdev\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/ctpdev/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/bboycosmo/Desktop/ctpdev/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SF:/ctpdev -BF:/ctpdev/build --check-stamp-file F:/ctpdev/build/src/CMakeFiles/generate.stamp
+C:\Users\bboycosmo\Anaconda3\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/bboycosmo/Desktop/ctpdev -BC:/Users/bboycosmo/Desktop/ctpdev/build --check-stamp-file C:/Users/bboycosmo/Desktop/ctpdev/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -143,12 +142,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\ctpdev\build\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/bboycosmo/Desktop/ctpdev/src/CMakeLists.txt;C:\Users\bboycosmo\Desktop\ctpdev\src\CMakeLists.txt;C:\Users\bboycosmo\Desktop\ctpdev\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\bboycosmo\Desktop\ctpdev\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/ctpdev/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/bboycosmo/Desktop/ctpdev/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SF:/ctpdev -BF:/ctpdev/build --check-stamp-file F:/ctpdev/build/src/CMakeFiles/generate.stamp
+C:\Users\bboycosmo\Anaconda3\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/bboycosmo/Desktop/ctpdev -BC:/Users/bboycosmo/Desktop/ctpdev/build --check-stamp-file C:/Users/bboycosmo/Desktop/ctpdev/build/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -156,23 +155,25 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\ctpdev\build\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/bboycosmo/Desktop/ctpdev/src/CMakeLists.txt;C:\Users\bboycosmo\Desktop\ctpdev\src\CMakeLists.txt;C:\Users\bboycosmo\Desktop\ctpdev\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\bboycosmo\Desktop\ctpdev\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="F:\ctpdev\build\ZERO_CHECK.vcxproj">
-      <Project>{5C65D867-7987-394F-893F-C7F5F81D2A76}</Project>
+    <ProjectReference Include="C:\Users\bboycosmo\Desktop\ctpdev\build\ZERO_CHECK.vcxproj">
+      <Project>{D0C0318B-7CC6-3EC3-A2C8-7CBEAE4E48F0}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="F:\ctpdev\build\src\CTP.vcxproj">
-      <Project>{8526EBCF-597B-364E-B13E-2877ABC1B333}</Project>
+    <ProjectReference Include="C:\Users\bboycosmo\Desktop\ctpdev\build\src\CTP.vcxproj">
+      <Project>{9A15C972-9D84-3D70-B5FB-0FEAD5D0AC19}</Project>
       <Name>CTP</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,0 +1,5 @@
+# ninja log v5
+1	425	617219897	src/CMakeFiles/CTP.dir/ctpmkt.cpp.obj	7ce96dda118e03d0
+4	539	617219897	src/CMakeFiles/CTP.dir/test.cpp.obj	409bf39671ba3ad2
+7	554	617219897	src/CMakeFiles/CTP.dir/ctptrd.cpp.obj	faa3df0c13bae29a
+556	889	617219897	src/CTP.exe	7f23f335ee7aae04
