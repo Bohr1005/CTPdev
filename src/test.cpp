@@ -32,4 +32,5 @@ int main()
 	trdApi->RegisterSpi(test_trd);
 	MDApi->Init();
 	trdApi->Init();
+	MDApi->Join();
 };

@@ -4,8 +4,6 @@ ctpmkt::ctpmkt(CThostFtdcMdApi* MDApi, CThostFtdcReqUserLoginField* pUserLogin):
 	_MDApi(MDApi),_pUserLogin(pUserLogin)
 {
 	nRequestID = 1;
-	std::cout << _pUserLogin->UserID << std::endl;
-	std::cout << _pUserLogin->Password << std::endl;
 }
 
 ctpmkt::~ctpmkt()
